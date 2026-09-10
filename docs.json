@@ -8,27 +8,38 @@
     "dark": "#15803D"
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Overview",
-        "pages": [
-          "introduction"
+        "tab": "CSM Candidate",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction"
+            ]
+          },
+          {
+            "group": "Task 1: Building a CS system",
+            "pages": [
+              "customer-success-metrics",
+              "expansion-levers",
+              "product-stickiness-churn-prevention",
+              "engineering-resource-allocation"
+            ]
+          },
+          {
+            "group": "Task 2: Expand a customer",
+            "pages": [
+              "customer-expansion-playbook"
+            ]
+          }
         ]
       },
       {
-        "group": "Task 1: Building a CS system",
-        "pages": [
-          "customer-success-metrics",
-          "expansion-levers",
-          "product-stickiness-churn-prevention",
-          "engineering-resource-allocation"
-        ]
+        "sourceRef": "andrew-mintlify-cs/multirepo-test"
       },
       {
-        "group": "Task 2: Expand a customer",
-        "pages": [
-          "customer-expansion-playbook"
-        ]
+        "sourceRef": "andrew-mintlify-cs/product1"
       }
     ]
   },
